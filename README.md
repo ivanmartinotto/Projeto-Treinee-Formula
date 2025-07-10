@@ -4,7 +4,7 @@ Este projeto coleta dados de um acelerômetro instalado na suspensão do carro d
 
 ## 🔧 Componentes
 
-- **ESP8266** + **MPU6050**
+- **ESP32** + **MPU6050**
 - **Servidor Node.js** com salvamento de dados em `.csv` (arquivo `telemetry_data.csv` é criado na pasta "Data Analysis")
 - **Dashboard HTML/JS** com gráficos ao vivo (Chart.js) e seleção de canais (ax, ay e az)
 - **Análise offline** futura com Python (`pandas`, `matplotlib`)
